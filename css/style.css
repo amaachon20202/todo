@@ -1,0 +1,51 @@
+body {
+    background-color: whitesmoke;
+}
+
+#background {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(102, 199, 223);
+    z-index: 1;
+}
+
+#av-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    
+}
+
+.avater {
+    border-radius: 50%;
+    height: 340px;
+    width: 350px;
+    border: 5px solid whitesmoke;
+ 
+}
+
+.p1 {
+    font-family: verdana;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.p2 {
+    font-family: verdana;
+    font-size: small;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#icons {
+    padding: 15px;
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
+    color: rgb(102, 199, 223) ;
+}
